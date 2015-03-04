@@ -29,18 +29,7 @@
                     </tr>
                 </table>
             </form>
-            <!--            <script type="text/javascript"
-                        src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-                        <script type="text/javascript">
-                                        $(document).ready(function () {
-                                            setInterval(function () {
-                                                var randomnumber = Math.floor(Math.random() * 100);
-                                                $('#show').text('I am getting refreshed every 3 seconds..! Random Number ==> ' + randomnumber);
-                                            }, 3000);
-                                        });
-                        </script>-->
-
-
+            
             <script type="text/javascript">
                 var sensorValues = [];
                 var sensorValues2 = [];
@@ -186,8 +175,6 @@
                         value6 = sensorValues6[i];
                         value7 = sensorValues7[i];
                         value8 = sensorValues8[i];
-
-
 
                         var date = sensorDate[i] + "\n" + sensorTime[i];
                         chartData.push({
