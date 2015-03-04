@@ -43,7 +43,6 @@
                 var sensorDate = [];
                 var chartData = generateChartData();
 
-
                 function collectValues() {
 
                     var a = 0;
